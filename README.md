@@ -14,8 +14,8 @@ The verb is **"classify one issue into a fixed priority lane"** — distinct fro
 against each other or scoring a free-form transcript; it's a single record mapped onto a small, fixed enum
 that must be reproducible across validators.
 
-- **Contract (Bradbury, chain 4221):** `DEPLOY_PENDING`
-- **Explorer:** https://explorer-bradbury.genlayer.com/contract/DEPLOY_PENDING
+- **Contract (Bradbury, chain 4221):** `0x2c9f7ed86b302E3f1D1C12f319AF816503975a55`
+- **Explorer:** https://explorer-bradbury.genlayer.com/contract/0x2c9f7ed86b302E3f1D1C12f319AF816503975a55
 
 ---
 
@@ -75,4 +75,4 @@ transition to `triaged` and that the finalized `priority`/`kind` land inside the
 ```bash
 genlayer deploy --contract contracts/issue_triage.py
 ```
-After deployment, replace `DEPLOY_PENDING` in `.env.example` (and above) with the returned contract address.
+After deployment, replace `0x2c9f7ed86b302E3f1D1C12f319AF816503975a55` in `.env.example` (and above) with the returned contract address.
